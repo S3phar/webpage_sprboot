@@ -10,4 +10,6 @@ public class PageController {
         return "newsmain";
     }
 
+    //test
+
 }
