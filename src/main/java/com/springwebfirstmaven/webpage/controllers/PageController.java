@@ -19,4 +19,8 @@ public class PageController {
         model.addAttribute("post",posts);
         return "newsmain";
     }
+    @GetMapping("/news/add")
+    public String newsAdd(Model model) {
+        return "newsadd";
+    }
 }

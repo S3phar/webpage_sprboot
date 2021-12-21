@@ -10,23 +10,26 @@ public class MainController {
 
     @GetMapping("/")
     public String home(Model model) {
-        model.addAttribute("title","SpringBootstrap");
+        model.addAttribute("title", "SpringBootstrap");
         return "home";
     }
+
     @GetMapping("/about")
     public String about(Model model) {
-        model.addAttribute("title","About us");
+        model.addAttribute("title", "About us");
         return "about";
     }
+
     @GetMapping("/support")
     public String support(Model model) {
-        model.addAttribute("title","Support");
+        model.addAttribute("title", "Support");
         return "support";
 
     }
-    @GetMapping("/newsmain")
-    public String newsmain(Model model) {
+
+    /*@GetMapping("/news")
+    public String news(Model model) {
         model.addAttribute("title", "News");
         return "newsmain";
-    }
+    }*/
 }

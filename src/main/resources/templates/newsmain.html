@@ -12,7 +12,7 @@
      <dvi th:each="el : ${post}" class="alert alert-info mt-2">
         <h3 th:text="${el.title}"></h3>
         <p th:text="${el.anons}"></p>
-        <a th:href="'/newsmain'+ ${el.id}">More</a>
+        <a th:href="'/news'+ ${el.id}">More</a>
     </dvi>
 </div>
     <div th:insert="bloks/footer :: footer"></div>
