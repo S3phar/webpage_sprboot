@@ -7,12 +7,12 @@
 </head>
 <body>
 <header th:insert="bloks/header :: header"></header>
-<div class="container mt-5">
+<div class="container mt-5" mb-5>
     <h1>Add news</h1>
     <form action="/news/add" method="post">
-        <input type="text" name="title" placeholder="Enter news title" class="form-control">
-        <input type="text" name="anons" placeholder="Enter news announcement" class="form-control">
-        <textarea name="full_text" placeholder="Enter the entire text of the news" class="form-control"></textarea>
+        <input type="text" name="title" placeholder="Enter news title" class="form-control"><br>
+        <input type="text" name="anons" placeholder="Enter news announcement" class="form-control"><br>
+        <textarea name="full_text" placeholder="Enter the entire text of the news" class="form-control"></textarea><br>
         <button type="submit" class="btn btn-success">Add news</button>
     </form>
     </dvi>
